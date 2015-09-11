@@ -1,0 +1,130 @@
+===================================
+Since Wed Sep  9 12:36:17 UTC 2015
+===================================
+
+
+   * android/
+45a8077 android-5.1.1_r13 -> android-5.1.1_r18
+0ced69b Add hardware/cyanogen
+2c98138 android-5.1.1_r6 -> android-5.1.1_r13
+
+   * build/
+6ff590d Merge tag 'android-5.1.1_r18' into cm-12.1
+7598793 repopick: Update script with some fixes
+05bb2bb repopick: print the status of a skipped cherry pick
+f02693b Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * device/bq/piccolo/
+6a59da8 liblight: Fix blink
+b216b9a liblight: Fix some issues Based on @dh-harald changes for Xiaomi Mi4i
+6b1cd7a Initial commit
+
+   * device/bq/vegetalte/
+c18a0e7 liblight: Fix blink
+
+   * device/xiaomi/armani/
+c015ce5 Enable dex-preoptimization
+9e6937e Enable BFQ IO scheduler by default
+
+   * external/libpng/
+a23466e Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * external/skia/
+8876213 Merge tag 'android-5.1.1_r18' into cm-12.1
+
+   * external/sonivox/
+80852d4 Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * external/wpa_supplicant_8/
+7902b17 Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * frameworks/av/
+d75bc98 Merge tag 'android-5.1.1_r18' into cm-12.1
+93c657f Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * frameworks/base/
+700f1aa SettingsProvider: change default battery style to portrait
+f51611c Themes: Use current user ID when getting ThemeConfig
+1c28310 Merge tag 'android-5.1.1_r18' into cm-12.1
+8609249 Fix Custom Resolver Theming
+09ab447 Revert a couple of badly-behaving ActivityManager patches.
+9be79d9 Compilation fixes
+51d8e60 NetworkPolicyManagerService: Handling IllegalArgumentException
+acd7b6d Add network policy for each sub on powerup
+8efcb63 Camera: Longshot with Burst Functionality.
+ef19398 Merge tag 'android-5.1.1_r13' into cm-12.1
+553b97a Themes: Don't use themed fonts for non themable packages
+
+   * frameworks/native/
+236ebea Merge tag 'android-5.1.1_r18' into cm-12.1
+
+   * frameworks/opt/hardware/
+fa7272b cmhw: Add PersistentStorage API
+
+   * frameworks/opt/telephony/
+6ff91ff Telephony: Don't show as roaming if new state isn't in service.
+5c3af54 Merge tag 'android-5.1.1_r18' into cm-12.1
+0d7a1dd Catch possible NumberFormatException in ServiceStateTracker
+5a8338a Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * hardware/broadcom/wlan/
+6462419 Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * hardware/cyanogen/
+744c68c cmhw: Initial import of hardware/cyanogen
+
+   * hardware/qcom/fm/
+600394a FMRadio : Select band based on country
+
+   * kernel/bq/piccolo/
+de08e5e Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.29' into cm-12.1-test
+
+   * kernel/bq/vegetalte/
+259fe467 Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.29' into cm-12.1-test
+
+   * kernel/xiaomi/armani/
+71c2007 f2fs: bring up to date with Jaegeuk's branch
+6317a24 armani: defconfig: Enable BFQ IO scheduler
+684a97d block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.4.0
+c4cbd7f block: introduce the BFQ-v7r8 I/O sched for 3.4
+ef94c4c block: cgroups, kconfig, build bits for BFQ-v7r8-3.4
+
+   * packages/apps/Settings/
+38d4631 Add option to set default custom function to button recents (2/2)
+
+   * packages/apps/SetupWizard/
+6c1d791 SetupWizard: Allow SetupWizard to use CMHW
+
+   * packages/apps/Stk/
+c54e006 Merge tag 'android-5.1.1_r13' into cm-12.1
+
+   * packages/services/Telephony/
+6ff6899 TeleService: Remove HomeAsUp arrow for nested pref screens
+db69251 TeleService: Remove HomeAsUp arrow for nested pref screens
+
+   * prebuilts/cmsdk/
+c5f124b prebuilts/cmsdk: Update api level 2 for PersistentStorage.
+
+   * system/core/
+4001a84 healthd: Use android blue for charge percentage
+b767d5d Revert "Charger: Add font to show real battery capacity in charger mode."
+a2e20c3 Merge tag 'android-5.1.1_r18' into cm-12.1
+6306b5e Camera: Longshot with Burst Functionality.
+3e09a07 fs_mgr: When formating ext4 volumes, respect the length parameter
+
+   * system/extras/
+e084215 f2fs_utils: fix block alignment calculation
+
+   * system/security/
+4212584 Merge tag 'android-5.1.1_r18' into cm-12.1
+
+   * vendor/cm/
+e4f75ba Update SPN override for China Telecom
+c37c231 vendor/cm: cmsettings -> cmpartnerinterface
+a385501 cm: SELinux policy for persistent properties API
+
+   * vendor/cmsdk/
+9f381bc cmsdk: Update api text for Persistent Storage API.
+7cef6f6 cmsdk: Add persistent properties API
+087f2b5 Update API txt files for cyanogenmod.media.MediaRecorder. Update API txt files for PartnerInterface.
+
