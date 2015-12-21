@@ -1,0 +1,1098 @@
+===================================
+Since Sun Dec 20 14:21:26 UTC 2015
+===================================
+
+
+   * device/bq/piccolo/
+253ff0a rootdir: Fix accelerometer sensor permissions
+
+   * device/bq/vegetalte/
+a5514ee rootdir: Update ueventd file
+7901fac sepolicy: Fix denial
+f7f7e57 Overlays: Update autobrightness config
+19f67d0 Update cmdline
+
+   * frameworks/base/
+30396ab implement noise suppression for phone calls (1/2)
+
+   * kernel/bq/piccolo/
+322f041 dts: Fix accelerometer sensor
+
+   * kernel/bq/vegetalte/
+e1d5bbd vegetalte:defconfig: Regenerate config
+a408aca camera: Update vegetalte changes
+5d95859 Revert "Revert "camera: Update vegetalte changes""
+f0e017d Revert "Revert "Revert "camera: Add vegetalte changes"""
+4f1dff8 Revert "Revert "Revert "camera: Fix bad merge"""
+3fae399 sound: Update vegetalte changes
+1df5b57 video:mdss: Update vegetalte changes
+1b2ca0f usb: Update vegetalte changes
+5c30c59 power: Update vegetalte changes
+c913e03 input:touchscreen: Update vegetalte changes
+683d580 dts: Update vegetalte changes
+
+   * packages/apps/Settings/
+450a14d Add option to set default custom function to button recents (2/2)
+
+   * packages/services/Telephony/
+197d513 Telephony: implement noise suppression for phone calls (2/2)
+
+   * system/core/
+057a60a healthd: Use android blue for charge percentage
+1d73e67 Revert "Add vendor hook to handle_control_message"
+
+===================================
+Since Sun Dec 13 09:48:03 UTC 2015
+===================================
+
+
+   * device/bq/piccolo/
+da28cf1 Overlays: Update autobrightness config
+a6a5162 rootdir: Update ueventd file
+583947d sepolicy: Fix some denials
+b63d9a3 Add Soft magnetic calibration config
+bdc7ebc Update wifi config
+32ffb02 Update mixer_path
+d11da20 prop: Add camera config
+109162d prop: Add telephony prop
+95a6396 Update fingerprint
+3c50dfa Update GPS config files
+
+   * device/bq/vegetalte/
+ac950c6 prop: Add telephony prop
+0a8ef28 Update fingerprint
+
+   * external/koush/ion/
+4204efc Ion: Add .flv file type
+
+   * external/whispersystems/WhisperPush/
+e9dc184 Automatic translation import
+
+   * frameworks/base/
+2b8bda9 Automatic translation import
+78b287e SystemUI: fix "directly show bouncer" conflicting with smart unlock
+eedcc4f Fix lockscreen disabling for MSIM.
+
+   * frameworks/opt/telephony/
+44c80fd telephony: Avoid NPE during hotswap where user nw is not set for invalid sub.
+
+   * hardware/qcom/fm/
+e7c6e42 Automatic translation import
+
+   * kernel/bq/piccolo/
+28dadb3 piccolo:defconfig: Regenerate config
+585fe7e staging: Update prima
+20eea7b camera: Add piccolo changes
+892d23e Revert "Revert "Revert "ARM: dts: msm: Modify default boot cpu number."""
+85bb1c3 Revert "camera: Add piccolo changes"
+3ee6ec6 video:mdss: Update piccolo changes
+f4d60ef switch: Update piccolo changes
+138121e usb: Update piccolo changes
+c485e60 power: Update piccolo changes
+28db0e1 input:touchscreen: Update piccolo changes
+fad35a5 input:misc: Update piccolo changes
+9828421 dts: Update piccolo changes
+
+   * packages/apps/AudioFX/
+e8cb5b0 Automatic translation import
+
+   * packages/apps/Bluetooth/
+ed7ce15 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+c48ae41 Automatic translation import
+
+   * packages/apps/CMAccount/
+6650f6f Automatic translation import
+
+   * packages/apps/CMBugReport/
+9936695 Automatic translation import
+
+   * packages/apps/CMFileManager/
+aa616f5 Automatic translation import
+
+   * packages/apps/CMUpdater/
+9c29d56 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+87180fe Automatic translation import
+
+   * packages/apps/Calculator/
+535146b Automatic translation import
+c40b6a0 Prevent entering more than one decimal symbol during input
+
+   * packages/apps/Calendar/
+f68efaa Automatic translation import
+
+   * packages/apps/Camera2/
+4abed6c Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+6054486 Automatic translation import
+
+   * packages/apps/Contacts/
+48920c7 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+b9e538b Automatic translation import
+
+   * packages/apps/DeskClock/
+8069237 Fix missing zh-rCN item entries
+9cdaa0a Automatic translation import
+
+   * packages/apps/Dialer/
+8e3b862 Automatic translation import
+
+   * packages/apps/Eleven/
+e265271 Automatic translation import
+
+   * packages/apps/Email/
+66e18ab Automatic translation import
+
+   * packages/apps/Gallery2/
+243341f Automatic translation import
+
+   * packages/apps/InCallUI/
+699d242 Automatic translation import
+
+   * packages/apps/LockClock/
+fe2d952 Automatic translation import
+
+   * packages/apps/Mms/
+9e44349 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+871c2af Automatic translation import
+
+   * packages/apps/Settings/
+49b8117 Settings : Add Russian translation for basic live display
+b1cb223 Settings : Ensure translation for live display entries
+61b76a3 Automatic translation import
+89f7395 Settings: respect telephony config for profiles override
+
+   * packages/apps/SetupWizard/
+955b7c5 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+a346e58 Automatic translation import
+
+   * packages/apps/Stk/
+f53df43 Automatic translation import
+
+   * packages/apps/Terminal/
+209ca2f Automatic translation import
+
+   * packages/apps/ThemeChooser/
+8532387 Automatic translation import
+
+   * packages/apps/Trebuchet/
+d11a4f0 Trebuchet: Ignore mnc/mcc config changes
+272f088 Automatic translation import
+
+   * packages/apps/TvSettings/
+28ed2a7 Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+789c010 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+3c323ce Automatic translation import
+
+   * packages/providers/DownloadProvider/
+fafd2c2 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+1054032 Automatic translation import
+
+   * packages/services/Mms/
+d6f948e Automatic translation import
+
+   * packages/services/Telecomm/
+46c297a Automatic translation import
+
+   * packages/services/Telephony/
+d37e268 Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+cc04609 Automatic translation import
+
+   * packages/wallpapers/PhaseBeam/
+ce0ff93 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+92f94dd Automatic translation import
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+b3deb93 Update prebuilt GCC to build 2492827.
+568d6b7 Update prebuilt GCC to build 2485757.
+
+   * vendor/bq/
+62a79db Update camera blobs
+f6b1da8 Update sensors blobs
+0b44eb6 Update Misc blobs
+ef5c0da Update Wifi blobs
+a15570f Update Venus firmware
+aed5b8d Update Time services blobs & App
+f1d85d3 Update Thermal blobs
+fab1d41 Update Radio blobs
+80a8fa8 Update Qualcomm blobs
+7e5687c Update Postprocessing blobs
+d092309 Update Perf blobs
+cca902d Update Media blobs
+8a388ec Update IRQ balance blob
+ae91199 Update GPS blobs & App
+16d05b4 Update DRM blobs
+07b1dd5 Update Color convertor blobs
+6cd6993 Update Bluetooth blobs
+cf30749 Update Audio blobs
+db97a72 Update ADSP blobs
+
+   * vendor/cmsdk/
+d266a6d Automatic translation import
+
+===================================
+Since Sat Nov 21 10:25:04 UTC 2015
+===================================
+
+
+   * build/
+5bb2f1a Update security string to 2015-12-01 - DO NOT MERGE
+bf1fe9a Enable El Capitan hosts for build
+531e203 Revert "Apply correct, optimized mfpu compiler flag for ARMv7-A Cortex CPUs"
+60ca2b7 kernel: add `make kernelxconfig' target
+
+   * cts/
+0044895 DO NOT MERGE security: Test OOB arbitrary write at AMessage::FromParcel
+
+   * development/
+5b7533d idegen: don't use hardcoded out directory
+
+   * device/bq/piccolo/
+d215374 Update device & product name
+823406e overlays: Enable Hall sensor support
+
+   * device/bq/vegetalte/
+040122a overlays: Update config
+fc21e2a rootdir: Update services & ueventd
+6022b7d Update device & product name
+1ca0fba Update media_codecs
+611d6d6 Update mixer_path
+5d5ef28 Update wifi config files
+369a7eb Update GPS config files
+e33c1b9 Update fingerprint
+
+   * external/bluetooth/bluedroid/
+575cb99 [PATCH] DO NOT MERGE - Add proper checks for PAN & BNEP in BD stack
+079095d fix up bluedroid compile errors
+
+   * external/libnetfilter_conntrack/
+78f8a86 Fix build breaks on L
+
+   * external/skia/
+635c2b9 [PATCH] Purge non-NEON ARM code. DO NOT MERGE
+
+   * external/whispersystems/WhisperPush/
+6c9e071 Automatic translation import
+
+   * frameworks/av/
+d42eea9 DO NOT MERGE - OMX: allow only secure codec to remotely call allocateBuffer.
+2f8a273 stagefright: check bounds for MediaCodecList.getCodecInfo
+2ee14e7 DO NOT MERGE - AudioFlinger: Clear record buffers when starting RecordThread
+92d92ff ID3: check possible integer overflow for extendedHeaderSize and paddingSize.
+09ac69b Check NAL size before use
+aded9bd MPEG4Extractor: ensure buffer size is not less than 8 for LastCommentData.
+91f54ae Don't crash when there's no conceal frame
+d7d445d stagefright: fix AMessage::FromParcel
+c1432cb DO NOT MERGE Fix vulnerability in mediaserver
+9b68cec DO NOT MERGE NuCachedSource2: fix possible erroneous early free
+cf1338a Limit allocations to avoid out-of-memory
+
+   * frameworks/base/
+667b1d2 Toast: Fix toast layout for RTL
+1ddc07d [PATCH 2/2] Delay hiding the cast icon for 3 seconds. DO NOT MERGE
+88f1378 [PATCH 1/2] DO NOT MERGE Send next alarm's show intent via  PendingIntent
+fba8196 Themes: Don't uninstall theme when processing an overlay fails
+d4fb7e5 Reset uninstalled apps for lockscreen shortcuts (1/2)
+fd51970 Automatic translation import
+62059d9 ZenMode : Update defaults for CTSVerifier
+
+   * frameworks/native/
+c799fb1 add number constraint for samples per MotionEvent
+
+   * frameworks/opt/net/wifi/
+0ba3cdc wifi: fixup hotspot disconnect on subscriber change
+d0315fe Fix a race in WifiNative objects
+
+   * frameworks/opt/telephony/
+a14ab34 Implement [BugID:1136] [PM99_SNT][SQV_PR]
+52b8ef0 telephony: use default nw mode instead of current when switching subs
+
+   * hardware/broadcom/libbt/
+d0b5eb6 libbt-vendor: add support for Samsung semco
+
+   * hardware/qcom/fm/
+973a8b7 Automatic translation import
+
+   * hardware/qcom/keymaster/
+ed1bb46 msm8909: Enable compiling HW specific keystore
+1014c59 keymaster: Featureize support for waiting on QSEE to start
+2ff30db Keymaster: Check that keymaster app is loaded
+
+   * hardware/qcom/media-caf/msm8994/
+502f4c0 mm-video: vidc: common: Fix debug messages
+
+   * kernel/bq/piccolo/
+c98674a Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.41' into cm-12.1-testWIP
+658f09c Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.062 on remote branch
+e47e3a2 Merge "ASoC: msm: qdsp6v2: validate audio client in callback"
+c196743 Merge "ARM: dts: msm: Bump up APC NOM mode by 25mv for specific 8939 V3"
+12ecff4 Merge "ASoC: msm: qdsp6v2: fix null pointer access during SSR"
+ba69d7d ARM: dts: msm: Bump up APC NOM mode by 25mv for specific 8939 V3
+796b6a5 Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.061 on remote branch
+190de63 Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.39' into cm-12.1-testWIP
+e0abe5a ARM: dts: msm: Update APC MEM ACC settings for 8939 V3.0
+7e9a59f Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.057 on remote branch
+36ed14f ASoC: msm: qdsp6v2: fix null pointer access during SSR
+2a20528 ASoC: msm: qdsp6v2: validate audio client in callback
+
+   * kernel/bq/vegetalte/
+5b2bc17 Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.41' into cm-12.1
+fe20e90 Revert "Revert "camera: Fix bad merge""
+0304a5c Revert "Revert "camera: Add vegetalte changes""
+a825db3 Revert "camera: Update vegetalte changes"
+a4cda17 Revert "Revert "msm: camera: Set MIPI_CSIPHY_GLBL_PWG_CFG0 for MSM8939 Rev 3.0.""
+0b6904d misc: Update vegetalte changes
+c80daa6 touchscreen: Update vegetalte changes
+85f7c07 Update prima
+9029ad2 Revert "msm: camera: Set MIPI_CSIPHY_GLBL_PWG_CFG0 for MSM8939 Rev 3.0."
+c3789e9 camera: Update vegetalte changes
+34a3383 Revert "camera: Add vegetalte changes"
+d854011 Revert "camera: Fix bad merge"
+658f09c Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.062 on remote branch
+e47e3a2 Merge "ASoC: msm: qdsp6v2: validate audio client in callback"
+c196743 Merge "ARM: dts: msm: Bump up APC NOM mode by 25mv for specific 8939 V3"
+12ecff4 Merge "ASoC: msm: qdsp6v2: fix null pointer access during SSR"
+ba69d7d ARM: dts: msm: Bump up APC NOM mode by 25mv for specific 8939 V3
+8551e9f Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.40' into cm-12.1
+796b6a5 Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.061 on remote branch
+fdda50b Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.39' into cm-12.1
+e0abe5a ARM: dts: msm: Update APC MEM ACC settings for 8939 V3.0
+7e9a59f Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.057 on remote branch
+36ed14f ASoC: msm: qdsp6v2: fix null pointer access during SSR
+2a20528 ASoC: msm: qdsp6v2: validate audio client in callback
+
+   * packages/apps/AudioFX/
+f4202d9 Automatic translation import
+
+   * packages/apps/Bluetooth/
+16a0a59 Automatic translation import
+
+   * packages/apps/BluetoothExt/
+a989410 Automatic translation import
+
+   * packages/apps/CMAccount/
+ffa5551 Automatic translation import
+
+   * packages/apps/CMBugReport/
+56d3846 Automatic translation import
+a6f67a6 Increase timeout on upload
+
+   * packages/apps/CMFileManager/
+4d187b0 Automatic translation import
+
+   * packages/apps/CMUpdater/
+527e699 Automatic translation import
+
+   * packages/apps/CMWallpapers/
+83ff47a Automatic translation import
+
+   * packages/apps/Calculator/
+28b610e Automatic translation import
+
+   * packages/apps/Calendar/
+e35fc79 Automatic translation import
+
+   * packages/apps/Camera2/
+44584d8 Automatic translation import
+3cc0f8b Fix writing to external storage.
+
+   * packages/apps/CellBroadcastReceiver/
+0f22a23 Automatic translation import
+
+   * packages/apps/Contacts/
+aee0a2f Automatic translation import
+
+   * packages/apps/ContactsCommon/
+af25a24 Automatic translation import
+
+   * packages/apps/DeskClock/
+4ac2ef0 Automatic translation import
+
+   * packages/apps/Dialer/
+cd7d0f9 Lookup: improve "Auskunft" (AT) API.
+2c80a61 Automatic translation import
+b159add Remove duplicate permission "android.permission.INTERACT_ACROSS_USERS"
+5fbf6ec Add people and reverse lookup provider "Auskunft" (AT).
+
+   * packages/apps/Eleven/
+0a6a663 Automatic translation import
+
+   * packages/apps/Email/
+eea9a9b Automatic translation import
+
+   * packages/apps/Gallery2/
+576b59f Automatic translation import
+
+   * packages/apps/InCallUI/
+724b906 Automatic translation import
+
+   * packages/apps/LockClock/
+78ee268 manifest: Enable LockClock preferences to show in LeanBack Settings row
+a4937a2 Automatic translation import
+
+   * packages/apps/Mms/
+afe4d81 Move CM introduced plural string resource to cm_plurals
+97741f3 Fix reversed draft string in RTL languages
+c976da8 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+b00b94d Automatic translation import
+
+   * packages/apps/Settings/
+7a12927 Revert lockscreen shortcuts if app uninstalled (2/2)
+db5ca86 Automatic translation import
+ee71fe5 Settings: Listen to preferapn changes via observer.
+
+   * packages/apps/SetupWizard/
+ce01418 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+58e4313 Automatic translation import
+
+   * packages/apps/Stk/
+d9e00fb Automatic translation import
+
+   * packages/apps/Terminal/
+5912e1a Automatic translation import
+
+   * packages/apps/ThemeChooser/
+7d903fe Fix duplicate "Get More" buttons in menu
+eea3c15 Automatic translation import
+
+   * packages/apps/Trebuchet/
+39dc7a8 Automatic translation import
+
+   * packages/apps/TvSettings/
+7ea059f Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+65793f1 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+8cd1ec6 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+c57fa08 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+ea3af8d Automatic translation import
+
+   * packages/services/Mms/
+be1f336 Automatic translation import
+
+   * packages/services/Telecomm/
+0f6914b Automatic translation import
+87c8bd7 Fix getAllPhoneAccounts() returning no accounts.
+
+   * packages/services/Telephony/
+89e62ed Automatic translation import
+
+   * packages/wallpapers/Galaxy4/
+e0b8665 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+f9a0023 Automatic translation import
+
+   * system/core/
+1bfbae1 libziparchive: fix fallocate failures
+2df6c4a Reserve space on disk using fallocate
+8084868 Fix compile error introduced by 119414.
+d0a088d Add vendor hook to handle_control_message
+
+   * system/vold/
+84358d9 asec: Add an extra MB for overhead while transferring app to container
+
+   * vendor/cm/
+b4b8759 Fix Digi Mobile defaults
+d40d876 Update maintainers
+370a0ae versioning: Display the maintenance version
+
+   * vendor/cmsdk/
+5331d13 Automatic translation import
+
+===================================
+Since Sat Nov 14 17:04:53 UTC 2015
+===================================
+
+
+   * build/
+1395703 gdbclient: fix build output directory path
+
+   * device/bq/piccolo/
+3670fda Dont build camera
+151a333 sepolicy: Adress some denials
+8a60973 rootdir: Restart the sensor daemon when the system restarts
+
+   * device/bq/vegetalte/
+79609f7 Dont build camera
+afc1db5 sepolicy: Adress some denials
+416c77c Stop the QC-QMI message spam
+a0cd8b2 Stop using custom mkbootimg.mk
+a6130c3 rootdir: Restart the sensor daemon when the system restarts
+c7e47f5 vegetalte: Disable initial screen blank
+
+   * external/busybox/
+12ff7a2 busybox: Compile with actual host GCC on Darwin
+
+   * external/koush/ion/
+728b211 Ion: Update mediafile to match mediastores BMP entries
+
+   * frameworks/base/
+fea0a82 SysUI: Fix navbar theme changing with status bar
+e49d5ea Recents: Fix IndexOutOfBoundsException
+ed834ca Shell: Declare cyanogenmod WRITE for system and secure settings.
+efb9ba7 Listen phone state change
+
+   * frameworks/opt/chips/
+778bda8 Fix plus sign on number dropdown
+
+   * frameworks/opt/telephony/
+2057518 Fix default network mode reset on sim1
+
+   * kernel/bq/piccolo/
+eb4e7cf net: ipc_router: Disable using SMEM Logs by default
+
+   * kernel/bq/vegetalte/
+eb4e7cf net: ipc_router: Disable using SMEM Logs by default
+
+   * packages/apps/ContactsCommon/
+8ace389 Fix contact JSON record parsing.
+
+   * packages/apps/Dialer/
+4395a7e Remove usage legacy HTTP Client
+386fc09 dialer: fix fc on secundary users
+
+   * packages/apps/Mms/
+5978d51 Remove text watcher that is incorrectly formatting numbers in RTL.
+
+   * packages/apps/Settings/
+ff01cb1 Settings: regulatory: Wrap the layout in a ScrollView
+
+   * packages/apps/Trebuchet/
+1c46bab Live Settings: always rebuild DynamicGrid
+
+   * packages/services/Telecomm/
+15679e2 Telecomm: Fix crash for SIP on dual sims device
+e08bab3 - Fix SIP soft-reboot on call
+
+   * packages/services/Telephony/
+153e645 PhoneToggler: use current phone with data to toggle network modes
+
+   * vendor/bq/
+632a345 Update camera blobs
+
+   * vendor/cm/
+e5b8b5a cm: make cgroups files read-only for all users
+
+===================================
+Since Fri Oct 30 12:09:16 UTC 2015
+===================================
+
+
+   * android/
+f4b3d08 intel: Use our own intel hw projects for libdrm, hwc, & libmix
+a1a71ff android-5.1.1_r24 -> android-5.1.1_r26
+
+   * bootable/recovery/
+c9b1143 recovery: add opt-out of exFAT
+29e9b2f Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * build/
+4a013e5 build: Don't load dt.img task if custom mkbootimg is used
+3e8b427 build: create dt.img task
+a306ef0 ota_from_target_files: Don't validate data signatures with data wipe
+1249533 Merge tag 'android-5.1.1_r26' into HEAD
+efa52fa generate_extra_images: Allow supplying arguments to dtbtool
+
+   * cts/
+04eebc6 rename android_security_cts_AudioflingerBinderTest.cpp to android_security_cts_AudioFlingerBinderTest.cpp
+9446958 Manually fix build errors from an MNC cherry-pick.
+a49f503 add more binder tests for AudioFlinger and AudioPolicyService.
+4783561 CTS: verify ConnectivityManager.requestNetwork throws for restricted networks
+74d90b3 Test if libstagefright dies in onInputBufferFilled on currupted file
+59cddac Add 5-second timeout to testFlacHeapOverflow
+f0ec278 DO NOT MERGE - Add security test for IEffect binder command
+a41f1b6 DO NOT MERGE: Test whether mediaserver leaks info across invalid binder calls
+b0e6092 DO NOT MERGE - Add CTS tests for IAudioflinger binder checks.
+
+   * device/bq/piccolo/
+dfec4c0 Stop the QC-QMI message spam
+450409a Stop using custom mkbootimg.mk
+
+   * device/bq/vegetalte/
+f312e0e gps: Update configs files
+15cdea6 rootdir: Update ueventd sensors permissions
+441e7b1 mixer_paths: Increase speaker & handset volume * Per users request
+
+   * external/mm-dash/
+77b8349 mm-dash: Add msm8992 to build barrier
+
+   * external/wpa_supplicant_8/
+9ec7ddc NFC: Fix payload length validation in NDEF record parser
+47b5051 WNM: Ignore Key Data in WNM Sleep Mode Response frame if no PMF in use
+bac9fa8 EAP-pwd peer: Fix last fragment length validation
+c69b9d1 EAP-pwd server: Fix last fragment length validation
+6a51515 EAP-pwd peer: Fix error path for unexpected Confirm message
+
+   * frameworks/av/
+861b59e audiopolicy: Fix A family a2dp mismerge
+ee4b4d3 stagefright: MPEG4Extractor: allow 'hdlr' box before first track
+8295e4e DO NOT MERGE: Protect data source access with mutex during disconnect
+5d567cc Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * frameworks/base/
+857b8ef Automatic translation import
+d6aedda base: get rid of android time class
+317990f Revert "Only accept user rotations when in USER_ROTATION_FREE mode"
+d19d27b Update boosted audio files 1/2
+bd0e2f2 Merge tag 'android-5.1.1_r26' into cm-12.1
+04d2436 Fix crash if Exif-Tag buffer-length and component-count are both 0
+adadaa8 SystemUI: HeadsUp: Check if view isn't already in windowManager
+
+   * frameworks/native/
+1cba324 Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * frameworks/opt/net/wifi/
+af2b866 wifi: don't disable AP on sub change if it's the same sub
+
+   * frameworks/opt/telephony/
+7df85d5 telephony: use phoneaccounts to determine voiceprompt status
+aea6eb3 [DO NOT MERGE] Harmlessly (?) fixes LOD on Sprint and Verizon (?) via Fallback
+c1b6b90 Fix NOT_RESTRICTED network capability and enforce it.
+35fc15d Merge tag 'android-5.1.1_r26' into cm-12.1
+
+   * hardware/qcom/media-caf/msm8916/
+bb144e5 Build mm-video-v4l2 on msm8909's
+
+   * kernel/bq/piccolo/
+b513234 Revert "Revert "ARM: dts: msm: Modify default boot cpu number.""
+63c43c0 Revert "Revert "ARM: dts: msm: Add dt node to enable clock gating WA for MSM8939-V3.0""
+6fc9ea6 Revert "Revert "ARM: dts: msm: Add new dt node to skip L2 spm programming""
+1b26276 Revert "msm: mdss: ignore overflow error when sending dcs command"
+8a15bdf Revert "msm: mdss: Add dt support to enable clk lane recovery"
+43d41a7 Revert "msm: mdss: release mdp_busy flag at isr"
+7c6339d Revert "msm: mdss: add support for handling LP_RX_TIMEOUT error"
+ac46b3c Revert "msm: mdss: extend DSI PHY recovery mechanism to BTA_TIMEOUT case."
+250bc5b Revert "msm: mdss: wait for hs clk recovery to finish"
+98e44f9 Revert "msm: mdss: send dsi data and command independently"
+8b545b0 Revert "msm: mdss: unregister wled in case of probe failure"
+e955be0 Revert "msm: mdss: re-check dsi cmd transfer done interrupt"
+aad369e Merge 1.2.4 bq changes
+
+   * kernel/bq/vegetalte/
+5b8430c camera: Fix bad merge
+a06420d vegetalte: Add CM defconfig
+701c1f5 Add bq changes to prima
+6f33e99 Add Pronto WLAN Driver from LA.BR.1.1.2-03310-8x16.0
+54e7972 Revert "msm: kgsl: State based power code interaction"
+bff53c7 Revert "msm: kgsl: Do not get active count on coresight start/stop"
+1c16a1d block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.10.8+
+865a14b block: introduce the BFQ-v7r8 I/O sched for 3.10.8+
+eea039b block: cgroups, kconfig, build bits for BFQ-v7r8-3.10.8+
+d474918 msm: kgsl: Fix double put for context in an error case
+3f89152 msm: kgsl: CP parser fixes
+49a55ad msm:  kgsl: skip power collapse for A304 if power ctrl flag is set
+e0a03c2 msm: kgsl: Correct register offsets for reading ME microcode
+c3e343d msm: kgsl: Detach page table first for every close
+c1b125f msm: kgsl: Dump snapshot on device start failure
+d9c6881 msm: kgsl: Remove the in-kernel IB verification
+5f951fb msm: kgsl: Correctly change the pagefault policy via sysfs
+5b4d1f8 msm: kgsl: Read the memory max stats properly
+5849c57 msm: kgsl: Skip soft reset for A304
+2c71b74 msm: kgsl: Replace jiffy sampling with usec
+83ca758 msm: kgsl: Increase fault detection timeout for A304
+c115edb msm: kgsl: Correctly handle page allocation failure
+53d01ad msm: kgsl: Release all memory entries at process close
+c788207 msm: kgsl: Fix the busy counter initialization sequence
+49b39ab msm: kgsl: Clear pending transactions from VBIF on hang
+afb63fd msm: kgsl: Directly enable the regulator after a soft reset
+e1c4740 msm: kgsl: Check for null pointer in kgsl_busmon_probe()
+917ff51 msm: kgsl: Save a copy of the fence name for syncpoint events
+177b2c3 msm: kgsl: Only map 4K or 64K pages to SMMU
+af0e863 msm: kgsl: Remove IRQ on/off sequence from nap state
+1f49a5a msm: kgsl: Call sync_fence_log only if CONFIG_SYNC is defined
+2e9722a msm: kgsl: Flush the event workqueue if no contexts are available
+20eb0bd msm: kgsl: Start the ft detection when enabling it via sysfs
+7f708992 msm: kgsl: Add a check for zero size memory allocation
+ecd3351 msm: kgsl: Add a path for dynamic AB bus votes
+8b889fb msm: kgsl: Correct the bandwidth vote translation
+557ca18 msm: kgsl: Add kgsl_flush_event_group()
+ca0038e msm: kgsl: Fix memory leak after snapshot
+fe5131e msm: kgsl: Ensure TTBR0 switch and TLB invalidate is atomic
+793bc16 msm: kgsl: Properly print profile assignments when none are set
+2f01bb7 Revert "msm: kgsl: Add GPU speed config support"
+d9544fd Revert "ARM: dts: Add GPU speed config support to MSM8916"
+726d6900 Revert "msm: kgsl: Use phys_addr_t to store the ptbase"
+64d3949 Revert "msm: kgsl: Add return statement for non-void function"
+ebb36a6 Revert "msm: kgsl: Fix fence debug message lock sequence"
+d40837b Revert "msm: kgsl: Call sync_fence_log only if CONFIG_SYNC is defined"
+753f649 Revert "msm: kgsl: Avoid spin lock recursion in adreno_drawctxt_dump"
+e4e4699 Revert "power: reset: fix bug on warm reset or hard reset selection"
+d219b45 qpnp-vibrator: Implement sysfs interface for vibrator intensity control
+3b893b7 input: touchscreen: ft5x06: Do it more easily for CMHW Tap To Wake control
+e861b8d FIOPS: forward port for use on 3.10 Linux
+26718c3 block: fiops ioscheduler core
+8e089fb Fix MobiCoreDriver entry/exit function section mismatch
+3c401cc media: radio: Fix building and loading the IRIS transport
+3c99607 input: misc: Fix compiler warning for bma2x2
+ef66ac8 ASoC: msm: qdsp6v2: Fix compiler warning for msm-pcm-routing-v2
+b6bf6fb dts: Enable rtc alarm powerup by default
+a789067 video: mdss: Color temperature interface using PCC
+c0e8068 drivers: devfreq: Allow DEVFREQ_GOV_MSM_BW_HWMON to be selected on MSM_BIMC_BWMON
+a1d4dc7 Revert "mdss: fb: Correct the error check for RGBA format"
+0059782 ASoC: msm: Allow SND_SOC_MSM_QDSP6V2_INTF to be selected on MSM_QDSP6_APRV3
+b463567 sound: Add vegetalte changes
+002abad kernel: Add vegetalte changes
+15e97c8 fs: Add vegetalte changes
+367606d mdss: Add vegetalte changes
+93c564d usb: Add vegetalte changes
+c51b1df soc: Add vegetalte changes
+79ec8dc power: Add vegetalte changes
+1f2a0e9 vibrator: Add vegetalte changes
+72b9d97 camera: Add vegetalte changes
+474475f leds: Add vegetalte changes
+8cc4da9 input:touchscreen: Add vegetalte changes
+1c72b49 input:misc: Add vegetalte changes
+aa7443f diag: Add vegetalte changes
+f341fd1 arm: Add vegetalte changes
+f5104a2 dts: Add vegetalte changes
+
+   * packages/apps/AudioFX/
+4a77508 Automatic translation import
+
+   * packages/apps/CMFileManager/
+8c39954 Automatic translation import
+
+   * packages/apps/Camera2/
+e6b9797 Automatic translation import
+44d2333 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * packages/apps/Contacts/
+aa29642 Automatic translation import
+4abb2f0 Contacts : Add ability to customize Contact Editor Views
+
+   * packages/apps/DeskClock/
+60d907d deskclock: support ogg music files
+
+   * packages/apps/Dialer/
+a3845ef Automatic translation import
+
+   * packages/apps/Eleven/
+9d2f804 Automatic translation import
+
+   * packages/apps/Gallery2/
+6912a34 Automatic translation import
+77db8c7 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * packages/apps/LockClock/
+8751c90 Automatic translation import
+d2d601f LockClock : Add api key for open weather
+
+   * packages/apps/Mms/
+fee5d24 Automatic translation import
+7965b67 Fix crash if Exif-Tag buffer-length and component-count are both 0
+
+   * packages/apps/Settings/
+50fed8b Settings: add opt out stats event
+c2ca831 Settings: Add security level default string
+7a985ee Remove CM translations of security_patch
+99c7c51 Automatic translation import
+24a133a wifi: Add a filter
+58c9d69 Add translations for Security Patch Level.
+e6be537 Merge tag 'android-5.1.1_r26' into cm-12.1
+185ef46 Settings: update contributors cloud
+
+   * packages/apps/ThemeChooser/
+cb8b79c Automatic translation import
+e6c8aec themechooser: listen for previews
+
+   * packages/apps/Trebuchet/
+692799c Automatic translation import
+2d723e2 GMS 3.0 : Update optional apps and folders
+8361472 Update default workspace to GMS 3.0 req
+f6a8d4f Fix crash if Exif-Tag buffer-length and component-count are both 0
+88dc0de Trebuchet: Enable HW Layers in app drawer
+
+   * packages/apps/TvSettings/
+11ffa66 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+2f386fc Fix applied previews query when component doesn't exist
+0fe2d61 themeprovider: notify uri on preview deletion
+
+   * packages/services/Telephony/
+c10cca6 Automatic translation import
+1acdc19 TeleService: Ensure the right phone object is used for MSIM
+
+   * packages/wallpapers/PhotoPhase/
+7ee94ae Automatic translation import
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+f22f062 Add NOTICE and MODULE_LICENSE files.
+3122899 Revert "Revert "Update prebuilt gold for --pic-veneer option.""
+4b05a5a Revert "Update prebuilt gold for --pic-veneer option."
+3d2f537 Update prebuilt gold for --pic-veneer option.
+
+   * system/core/
+323bb81 Merge tag 'android-5.1.1_r26' into cm-12.1
+4743d5c healthd: Turn screen off before rebooting
+
+   * system/extras/su/
+ee9de09 Merge "replace insecure uid spoofing code" into cm-12.1
+860479b replace insecure uid spoofing code
+1e7b152 daemon: Validate the socket caller's requested FDs
+4f4cd57 su: Remove dead code
+
+   * system/vold/
+336f513 cryptfs: Unbreak hardware-backed pattern lock + encryption
+314f910 vold: add opt-out for exFAT
+
+   * vendor/cm/
+675f474 cm: add opt-out for exFAT
+d9d3201 Remove instance of server=""
+902c2cc Update boosted audio files 2/2
+7a218f8 Ventelo is now Phonero
+48a042e contributors: add LG G4, remove cody from some devices
+
+   * vendor/cmsdk/
+0c0aef6 CMSettings: add reporting status setting
+a6d50e0 Automatic translation import
+
+===================================
+Since Sat Oct 17 12:42:51 UTC 2015
+===================================
+
+
+   * android/
+7043987 Revert "efence: Add electric fence to default manifest."
+
+   * bootable/recovery/
+4224760 Blank screen during shutdown and reboot
+840c175 update-binary: support reboot_now on older recoveries
+
+   * build/
+67416e9 build: Adjust for device-specific HAL paths
+22a3719 "LMY48Y"
+7fc9ab7 envsetup: Show error when supplied dir isn't present with mmm
+9f5ee48 edify: Fix _WordWrap function calls
+9c32ee8 kernel: Don't update defconfig with KERNEL_ADDITIONAL_CONFIG options
+8237106 kernel: use merge-config.sh for integrating KERNEL_ADDITIONAL_CONFIG
+4754814 mka: allow mka to be run from anywhere in the tree
+
+   * device/bq/piccolo/
+296151b media: Set H263 decoder max res to 1080p
+26aeb54 audio: Avoid conflicts with audio visualizer
+a059b6f audio: Use deep-buffer output for ringtones
+27c5d19 audio: Use low latency as primary output & enable offload
+e879449 Update fingerprint
+
+   * device/bq/vegetalte/
+bff4d69 audio: Avoid conflicts with audio visualizer
+0318b1c audio: Use deep-buffer output for ringtones
+f3c9ade audio: Use low latency as primary output & enable offload
+924c234 prop: Fix some UI nasty glitch again
+4a7a3c4 prop: Update display config again
+8f62f31 rootdir: Change to CM power style
+3ea3555 Enable BFQ IO scheduler by default
+f6c95a1 rootdir: Update performance profiles & reorganize code
+ec2a1ed prop: Update display config
+a287ee7 keylayout: Rename to Headset & remove unused keys
+
+   * device/qcom/common/
+62e2fc0 power: enable perf options for power bias
+6948d77 power: add support for bias modes on 8994
+
+   * external/koush/ion/
+3e1cfb0 Ion: Support exif rotation when using deepzoom
+
+   * external/stagefright-plugins/
+61bf067 codecs: Disable AC3/EAC3
+
+   * frameworks/av/
+3868162 camera: Allow devices to load custom CameraParameter code
+
+   * frameworks/base/
+7dd267d Keyguard: Show backdrop when sim pin secure screen shown
+51bdbe7 Only accept user rotations when in USER_ROTATION_FREE mode
+3f095e6 SettingsProvider: load animation defaults into correct table
+312801d Keyguard: fix fingerprint not starting after user switch
+f871234 FingerprintService: fix fingerprints disappearing
+4a5997c Automatic translation import
+2fa41c6 SystemUI: update keyguard state when profiles disable keyguard
+4d44dda perf: Add support for additional power profiles
+3cf6b3c Revert "autobrightness: Fix the brightness dialog is not work when first enable auto-backlight"
+11d47e4 base: don't show reboot options for safe mode
+06c39e2 Wifi tile: don't set items visible from non-ui thread
+4432d5a AssetAtlasService: fix a potential race condition
+3169f4c Revert "[DO NOT MERGE] Bump up the timeout for uncrypt to 900s."
+3ba4c35 Automatic translation import
+1c4ed33 SystemUI: Improve play queue string
+25d8fd3 base: initialized context ContentResolver reference before use it.
+5835cda Lights Modes: Avoid regular values updates
+30e4de9 Support for faster brightness response to light changes.
+
+   * frameworks/native/
+e4759c3 sensorservice: customize sensor fusion mag filter via prop
+
+   * frameworks/opt/telephony/
+f1cd40b Add getPreferredApn() in buildWaitingApns()
+2217a0c Make sure the APN setting list is never null.
+
+   * hardware/qcom/audio-caf/msm8916/
+90db087 add line out to device sharing codec backend
+359e995 hal: updates for DEVICE_OUT_LINE
+e845ba1 hal: Add support for AUDIO_DEVICE_OUT_LINE
+
+   * hardware/qcom/display-caf/msm8974/
+d4c3461 hwc: reset overlay and writeback in unblank if writeback is active
+
+   * kernel/bq/piccolo/
+0fd54e6 Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.36' into cm-12.1-test
+46545b8 Merge "msm: platsmp: 8916: Add cpu_disable call back to smp operations."
+ce28658 Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.056 on remote branch
+ec53d33 Merge "msm: mdss: wait for hs clk recovery to finish"
+9c61506 Merge "msm: mdss: re-check dsi cmd transfer done interrupt"
+97a1b4f Merge "msm: mdss: configure clk_lane_cnt variable for recovery failure"
+e3518f5 Merge "msm: mdss: Add error handling after mapping buffer"
+2cba2b8 msm_rmnet_bam: Use the correct netif_rx api
+dcba0e3 msm: platsmp: 8916: Add cpu_disable call back to smp operations.
+b92ae68 Revert "msm: kgsl: State based power code interaction"
+2d77b8d Revert "msm: kgsl: Do not get active count on coresight start/stop"
+b920a22 Merge remote-tracking branch 'caf/LA.BR.1.1.3_rb1.35' into cm-12.1-test
+dd548c2 Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.055 on remote branch
+
+   * kernel/bq/vegetalte/
+46545b8 Merge "msm: platsmp: 8916: Add cpu_disable call back to smp operations."
+ce28658 Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.056 on remote branch
+ec53d33 Merge "msm: mdss: wait for hs clk recovery to finish"
+9c61506 Merge "msm: mdss: re-check dsi cmd transfer done interrupt"
+97a1b4f Merge "msm: mdss: configure clk_lane_cnt variable for recovery failure"
+e3518f5 Merge "msm: mdss: Add error handling after mapping buffer"
+2cba2b8 msm_rmnet_bam: Use the correct netif_rx api
+dcba0e3 msm: platsmp: 8916: Add cpu_disable call back to smp operations.
+dd548c2 Merge AU_LINUX_ANDROID_LA.BR.1.1.3_RB1.05.01.01.032.055 on remote branch
+
+   * packages/apps/BluetoothExt/
+ef81181 Automatic translation import
+
+   * packages/apps/CMFileManager/
+ab89abc Automatic translation import
+b2e715e Automatic translation import
+06b63a7 Thumbnail update on copy and overwrite issue of pictures
+
+   * packages/apps/CMUpdater/
+4e5fbed Automatic translation import
+
+   * packages/apps/Calendar/
+de4e6ca Automatic translation import
+
+   * packages/apps/Contacts/
+dcfa888 Automatic translation import
+6b4976d Fix empty field creation for data kinds without type.
+ab1e2ac Automatic translation import
+
+   * packages/apps/DeskClock/
+3cc92a9 Proguard causing RuntimeException
+df1817d Null-check in case an AlarmInstance's Alarm no longer exists.
+5b4d6c3 Automatic translation import
+
+   * packages/apps/Eleven/
+c544b6a Automatic translation import
+
+   * packages/apps/Email/
+b9984de email: junk icon
+db1ca54 email: return default folder name for subfolders
+
+   * packages/apps/Gallery2/
+7127cd4 Automatic translation import
+9a39c44 Automatic translation import
+
+   * packages/apps/InCallUI/
+85ab64d Automatic translation import
+
+   * packages/apps/Mms/
+b9e9ff2 Fixed Messaging: Overflow menu options change after screen ON/OFF
+8297e7b Fix subject limit checking.
+2db7fb3 Fix formatting
+4598153 Correct AOSP DE translation error
+
+   * packages/apps/Settings/
+a5c9b8e Automatic translation import
+553b057 Settings : Update performance tile drawable reference
+0f7e5ff HighTouchSensitivity [2/2]: Add Settings preference
+e79c373 settings: ensure we don't call isProtectedApp with an invalid reference
+5fcea94 WirelessSettings: Remove NFC category if there's no NFC adapter
+d124efa settings: update contributors stats
+c2f6129 settings: update control ring stream string
+49f5298 protected-apps: don't show a progress dialog for short operations
+26fe05e Settings: Fix LCD Density preference crash on secondary user
+47a7bb6 Settings: update layouts
+4275caa Automatic translation import
+4dd3efe Protected Apps: add some side padding in app list view
+
+   * packages/apps/SetupWizard/
+52f6310 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+7d117f9 Automatic translation import
+
+   * packages/apps/Trebuchet/
+56396c8 trebuchet: ensure not overlaping shorcuts with dockbar items when searchbar is invisible
+e0fe495 trebuchet: ensure not overlaping shorcuts and drop items when searchbar is invisible
+
+   * packages/apps/TvSettings/
+19d218c Automatic translation import
+6bbba7d Automatic translation import
+
+   * packages/apps/UnifiedEmail/
+8ef4be4 unifiedemail: junk icon
+95cc3e9 email: allow move/copy operations to more system folders
+322e058 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+305b050 Automatic translation import
+
+   * packages/providers/ThemesProvider/
+2fdddef Fix live lock screen previews not showing up
+
+   * packages/services/Mms/
+537889f Automatic translation import
+
+   * packages/services/Telephony/
+70674fd Automatic translation import
+0c2f1f4 Automatic translation import
+62d5dea TeleService: Make ongoing mwi notification overlayable
+
+   * packages/wallpapers/Basic/
+a62a6f5 PolarClock: Don't draw on invisible surfaces
+
+   * vendor/cm/
+6807df0 sepolicy: allow various process access /data/bootchart folder
+900d6cc Updated CHANGELOG and (c) date
+
+   * vendor/cmsdk/
+694c14c Automatic translation import
+826c1aa HighTouchSensitivity [1/2]: Add Settings preference
+20cecb7 CMSettingsProvider: Add ability to read region locked themes
+8c87673 Automatic translation import
+
